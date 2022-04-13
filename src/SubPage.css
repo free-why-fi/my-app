@@ -1,0 +1,19 @@
+.SubPage {}
+.header {width: 1200px;
+    margin: 0 auto;
+
+}
+.header .login{display: flex;
+    justify-content: flex-end;
+    }
+.login .menu-item {
+    padding: 10px 10px;
+}
+.logo {}
+.gnb {
+    display: flex;
+    justify-content: flex-start;
+}
+.gnb .menu-item {
+    padding: 10px 30px;
+}
