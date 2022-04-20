@@ -1,19 +1,63 @@
 .SubPage {}
-.header {width: 1200px;
+
+.header {
+    width: 1200px;
     margin: 0 auto;
 
 }
-.header .login{display: flex;
+
+.header .login {
+    display: flex;
     justify-content: flex-end;
-    }
+}
+
 .login .menu-item {
     padding: 10px 10px;
 }
+
 .logo {}
+
 .gnb {
     display: flex;
     justify-content: flex-start;
 }
+
 .gnb .menu-item {
     padding: 10px 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 27px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    /* margin-left: -5px; */
+    /* margin-right: -5px; */
+    gap: 10px;
+
+}
+
+.content-item {
+    /* margin: 0 5px; */
+    text-align: left;
+}
+
+.content-item .price {
+    font-weight: bold;
+}
+
+.content-item img {
+    width: 100%;
 }
