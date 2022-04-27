@@ -1,7 +1,7 @@
 .SubPage {}
 
 .header {
-    width: 1200px;
+    width: 1050px;
     margin: 0 auto;
 
 }
@@ -31,7 +31,7 @@
 }
 
 .section {
-    width: 1200px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -52,12 +52,45 @@
 .content-item {
     /* margin: 0 5px; */
     text-align: left;
+    position: relative;
+}
+
+.content-item .content-image-area {
+    position: relative;
+}
+
+.content-item .itemname {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .content-item .price {
-    font-weight: bold;
+    font-size: 14px;
+    text-decoration: line-through;
 }
 
-.content-item img {
+.content-item .display-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-item .display-price .discount-rate {
+    color: coral;
+}
+
+.content-item .itemimage {
     width: 100%;
+}
+
+.content-item .cartimage {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.banner.banner-small {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
