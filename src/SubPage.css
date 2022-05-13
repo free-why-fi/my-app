@@ -39,6 +39,7 @@
     font-size: 27px;
     margin-top: 80px;
     margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .content {
@@ -114,6 +115,7 @@
     font-size: 28px;
     margin: 0;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .section .special-price-area .description {
@@ -124,6 +126,7 @@
 
 .section .special-price-area .time {
     font-size: 32px;
+    margin-left: 10px;
 }
 
 .section .special-price-area .description2 {
@@ -136,4 +139,65 @@
 .section .special-price-area .clock-area {
     display: flex;
     align-items: center;
+}
+
+.clock {
+    width: 25px;
+    height: 25px;
+    background: #ff00a6;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.clock-area {}
+
+.clock-hour {
+    width: 3px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.clock-min {
+    width: 10px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 12px;
+    right: 3px;
+}
+
+.topbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.topbuttonimage {
+    width: 60px;
+    height: 60px;
+}
+
+.footer .footer-description {
+    font-size: 10px;
+    line-height: 16px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: -.5px;
+}
+
+.footer .right {
+    font-size: 10px;
+    line-height: 16px;
+    color: #949296;
+    text-align: center;
+}
+
+.footer {
+    height: 100px;
+    background-color: #f7f7f7;
+    padding: 19px 0 37px;
 }
