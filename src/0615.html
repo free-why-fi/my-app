@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>재밌다.</title>
+</head>
+
+<body>
+    <h1>재밌다.</h1>
+</body>
+<script>
+    let max = parseInt(prompt("최대값 입력하세요.", 30))
+    // alert(max)
+    let min = parseInt(prompt("최소값 입력하세요.", 0))
+    // alert(min)
+    let answer = Math.floor(Math.random() * (max - min + 1)) + min;
+    // alert(answer)
+    let result = false
+
+    // for(초기화;조건;연산?)
+    //while(조건)
+    for (let a = 1; a <= 5; a++) {
+        let input = prompt(`정답을 입력하세요. ${a}번째 도전!!`)
+
+        if (answer > input) {
+            alert("업 입니다.")
+        }
+        else if (answer < input) {
+            alert("다운 입니다.")
+        }
+        else {
+            alert("정답 입니다!!")
+            result = true
+            break
+        }
+
+
+    }
+
+
+    //
+
+    //
+    if (result == true) { }
+    else if (result == false) { alert("꽝... 다음기회에 만나요... 훌쩍") }
+
+</script>
+
+</html>
