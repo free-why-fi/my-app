@@ -1,0 +1,103 @@
+<html>
+
+f(x) = 2x+1
+f(2) = 5
+
+f(x,y)= x-y
+f(2,1)= 1
+
+
+
+function(x){
+//
+
+return ;
+}
+
+1.반복되는 코드 재사용
+2. 코드 간결화
+
+
+아침에 일어나서
+eat(아침)
+아침밥은 밥이랑 김치랑 미역국
+work()
+eat(점심)
+게임하고
+work()
+eat(저녁)
+퇴근하고
+자고
+게임하고
+
+예시
+
+<script>
+
+    //예시
+    const sum = function (a, b) {
+        // a, b : 인자 (parameter or argument)
+        let result = a + b;
+        result = result - 1
+        result = result * 100 * a
+
+
+
+        return result; // 리턴
+
+        // return a+b
+    }
+
+
+    // 함수의 사용
+    let sumResult1 = sum(1, 3)
+
+
+    let first = 3;
+    let second = 7;
+    let sumResult2 = sum(first, second)
+
+    second = 10
+
+    let sumResult3 = sum(first, second)
+
+    sum(sum(1, 2), 3)
+
+    // const multiply = function (a, b) {
+    //     let result = a * b;
+    //     return result;
+    // }
+
+    let number1 = parseInt(prompt("첫번째 숫자를 입력하세요.", 0))
+    // alert(max)
+    let number2 = parseInt(prompt("두번째 숫자를 입력하세요.", 0))
+
+    // alert(multiply(number1, number2))
+
+    const compare = function (a, b) {
+        let result;
+        if (a == b) {
+            result = "같다"
+        }
+        else if (a > b) {
+            result = "크다"
+        }
+        else {
+            result = "작다"
+        }
+
+        // 먼저 return 할 값 생각.
+        // "같다" "크다" "작다" ...
+        // true / false
+        // 1 /2 /3
+
+        // result = "같다";
+
+        return result;
+    }
+
+    alert(compare(number1, number2))
+
+</script>
+
+</html>
